@@ -235,7 +235,7 @@ async def get_image(message):
 
         try:
             output = face_woman(photo_buffer[message.chat.id].photos[0])
-            await bot.send_message(message.chat.id, "Смена пола на мужской")
+            await bot.send_message(message.chat.id, "Смена пола на женский")
             await bot.send_document(message.chat.id, deepcopy(output))		
             await bot.send_photo(message.chat.id, output)
          
@@ -256,7 +256,7 @@ async def get_image(message):
 
         try:
             output = face_man(photo_buffer[message.chat.id].photos[0])
-            await bot.send_message(message.chat.id, "Смена пола на женский")
+            await bot.send_message(message.chat.id, "Смена пола на мужской")
             await bot.send_document(message.chat.id, deepcopy(output))		
             await bot.send_photo(message.chat.id, output)
 		
