@@ -26,12 +26,6 @@ This is Telegram Bot project.Bot can:
 * pytorch.torch - version 1.5
 * pytorch.torchvision - version 0.6.1
 
-
-## Code Examples
-Show examples of usage:
-`put-your-code-here`
-https://github.com/raxod502/heroku-buildpack-git-lfs
-
 ## Features
 List of features ready and TODOs for future development
 * Bot token
@@ -72,6 +66,8 @@ or swap woman face to man:
 
 
 ## Status
+Bot was deployed on Heroku.
+Due to server limitations of 500 MB, I had to degrade the quality of the output images
 Project is: _in progress_, (~~_finished_~~)
 
 ## Inspiration
